@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aditya Verma — Full Stack Developer &amp; AI/ML Engineer</title>
+<meta name="description" content="Portfolio of Aditya Verma, a CSE (AIML) engineer and full stack developer building intelligent, scalable and interactive digital experiences.">
+<meta name="theme-color" content="#0a0805">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Aditya Verma — Full Stack Developer & AI/ML Engineer">
+<meta property="og:description" content="Building intelligent, scalable and interactive digital experiences. Full stack development, AI/ML, and modern web engineering.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader" aria-hidden="true">
+  <div class="loader-mark">AV — LOADING</div>
+  <div class="loader-bar"></div>
+</div>
+
+<!-- Background particle canvas -->
+<canvas id="particle-canvas" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+<div class="crosshairs" aria-hidden="true">
+  <span class="ch-tl"></span><span class="ch-tr"></span><span class="ch-bl"></span><span class="ch-br"></span>
+</div>
+
+<!-- Section progress rail -->
+<nav class="side-progress" aria-hidden="true">
+  <span class="dot" data-target="home"></span>
+  <span class="dot" data-target="about"></span>
+  <span class="dot" data-target="skills"></span>
+  <span class="dot" data-target="projects"></span>
+  <span class="dot" data-target="experience"></span>
+  <span class="dot" data-target="education"></span>
+  <span class="dot" data-target="achievements"></span>
+  <span class="dot" data-target="contact"></span>
+</nav>
+
+<!-- Navbar -->
+<header class="navbar">
+  <a href="#home" class="brand"><span class="brand-mark">AV</span> Aditya Verma</a>
+  <nav class="nav-links" aria-label="Primary">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <span class="nav-divider"></span>
+  <a class="nav-cta" href="#" download>Resume ↗</a>
+  <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+</header>
+
+<div class="mobile-menu">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#achievements">Achievements</a>
+  <a href="#contact">Contact</a>
+  <a class="nav-cta" href="#" download>Resume ↗</a>
+</div>
+
+<main class="content">
+
+  <!-- ============ HOME / HERO ============ -->
+  <section class="hero wrap" id="home" data-shape="0">
+    <div class="hero-role">CSE (AIML) ENGINEER &nbsp;·&nbsp; FULL STACK DEVELOPER &nbsp;·&nbsp; AI/ML ENTHUSIAST</div>
+    <h1>Hi, I'm Aditya Verma</h1>
+    <p class="tagline">Building intelligent, scalable and interactive digital experiences.</p>
+
+    <div class="hero-chips">
+      <span class="chip">Full Stack Development</span>
+      <span class="chip">Artificial Intelligence &amp; Machine Learning</span>
+      <span class="chip">Data Structures &amp; Algorithms</span>
+      <span class="chip">Modern Web Development</span>
+      <span class="chip">Problem Solving</span>
+    </div>
+
+    <div class="btn-row">
+      <a href="#projects" class="btn btn-primary">View My Work</a>
+      <a href="#contact" class="btn btn-ghost">Let's Connect</a>
+      <a href="#" class="btn-link" download>Download Resume ↓</a>
+    </div>
+
+    <div class="hero-foot">
+      <div class="social-row">
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+      <div class="scroll-cue"><span class="line"></span>SCROLL</div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section wrap" id="about" data-shape="1">
+    <div class="eyebrow"><span class="num">02</span><span class="rule"></span>ABOUT</div>
+    <div class="split">
+      <div class="reveal">
+        <h2 class="section-head" style="margin-bottom:24px;">Every project is a proof of what I can build.</h2>
+        <div class="about-body">
+          <p>I'm a <strong>Computer Science Engineering student specializing in AI/ML</strong>, currently building toward a career at the intersection of full stack engineering and applied machine learning. I like problems that don't have an obvious answer yet — the kind that need a working prototype before anyone can say for sure it'll work.</p>
+          <p>My day-to-day sits across <strong>full stack development</strong>, <strong>machine learning</strong>, and <strong>data structures &amp; algorithms</strong> — writing the interface, the API, and increasingly, the model behind it. I care about software engineering practices that hold up outside a notebook, and about interfaces that feel considered rather than assembled.</p>
+          <p>Outside of coursework, I spend time on interactive web experiences — the small details of motion, state, and feedback that make a product feel finished rather than functional.</p>
+        </div>
+        <div class="interest-list">
+          <span class="chip">Software Engineering</span>
+          <span class="chip">Interactive Web Experiences</span>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="stats-grid">
+          <div class="stat"><div class="n" data-count="6" data-suffix="+">0</div><div class="l">PROJECTS BUILT</div></div>
+          <div class="stat"><div class="n" data-count="20" data-suffix="+">0</div><div class="l">TECHNOLOGIES LEARNED</div></div>
+          <div class="stat"><div class="n" data-count="150" data-suffix="+">0</div><div class="l">PROBLEMS SOLVED</div></div>
+          <div class="stat"><div class="n" data-count="3" data-suffix="+">0</div><div class="l">CERTIFICATIONS / ACHIEVEMENTS</div></div>
+        </div>
+        <p class="stats-note">Figures are placeholders — swap in your real numbers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section wrap" id="skills" data-shape="2">
+    <div class="eyebrow"><span class="num">03</span><span class="rule"></span>SKILLS</div>
+    <div class="section-head reveal">
+      <h2>Tools I reach for, and ones I'm still sharpening.</h2>
+      <p>A working set across programming, the web stack, data, and applied ML — presented as what I use and am building depth in, not a scoreboard.</p>
+    </div>
+
+    <div class="filter-row reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="programming">Programming</button>
+      <button class="filter-btn" data-filter="frontend">Frontend</button>
+      <button class="filter-btn" data-filter="backend">Backend</button>
+      <button class="filter-btn" data-filter="databases">Databases</button>
+      <button class="filter-btn" data-filter="aiml">AI / ML</button>
+      <button class="filter-btn" data-filter="tools">Tools</button>
+    </div>
+
+    <div class="skills-grid reveal">
+      <!-- Programming -->
+      <div class="skill-card" data-cat="programming"><div class="name">C++</div><div class="cat">Programming</div></div>
+      <div class="skill-card" data-cat="programming"><div class="name">Python</div><div class="cat">Programming</div></div>
+      <div class="skill-card" data-cat="programming"><div class="name">Java</div><div class="cat">Programming</div></div>
+      <div class="skill-card" data-cat="programming"><div class="name">JavaScript</div><div class="cat">Programming</div></div>
+      <div class="skill-card" data-cat="programming"><div class="name">TypeScript</div><div class="cat">Programming</div></div>
+      <!-- Frontend -->
+      <div class="skill-card" data-cat="frontend"><div class="name">HTML</div><div class="cat">Frontend</div></div>
+      <div class="skill-card" data-cat="frontend"><div class="name">CSS</div><div class="cat">Frontend</div></div>
+      <div class="skill-card" data-cat="frontend"><div class="name">React</div><div class="cat">Frontend</div></div>
+      <div class="skill-card" data-cat="frontend"><div class="name">Tailwind CSS</div><div class="cat">Frontend</div></div>
+      <div class="skill-card" data-cat="frontend"><div class="name">Vite</div><div class="cat">Frontend</div></div>
+      <!-- Backend -->
+      <div class="skill-card" data-cat="backend"><div class="name">Node.js</div><div class="cat">Backend</div></div>
+      <div class="skill-card" data-cat="backend"><div class="name">Express.js</div><div class="cat">Backend</div></div>
+      <div class="skill-card" data-cat="backend"><div class="name">REST APIs</div><div class="cat">Backend</div></div>
+      <div class="skill-card" data-cat="backend"><div class="name">JWT Auth</div><div class="cat">Backend</div></div>
+      <!-- Databases -->
+      <div class="skill-card" data-cat="databases"><div class="name">MongoDB</div><div class="cat">Databases</div></div>
+      <div class="skill-card" data-cat="databases"><div class="name">MySQL</div><div class="cat">Databases</div></div>
+      <div class="skill-card" data-cat="databases"><div class="name">Firebase</div><div class="cat">Databases</div></div>
+      <!-- AI/ML -->
+      <div class="skill-card" data-cat="aiml"><div class="name">Machine Learning</div><div class="cat">AI / ML</div></div>
+      <div class="skill-card" data-cat="aiml"><div class="name">Predictive Analytics</div><div class="cat">AI / ML</div></div>
+      <div class="skill-card" data-cat="aiml"><div class="name">Pandas</div><div class="cat">AI / ML</div></div>
+      <div class="skill-card" data-cat="aiml"><div class="name">NumPy</div><div class="cat">AI / ML</div></div>
+      <div class="skill-card" data-cat="aiml"><div class="name">Scikit-learn</div><div class="cat">AI / ML</div></div>
+      <div class="skill-card" data-cat="aiml"><div class="name">TensorFlow</div><div class="cat">AI / ML</div></div>
+      <div class="skill-card" data-cat="aiml"><div class="name">PyTorch</div><div class="cat">AI / ML</div></div>
+      <!-- Tools -->
+      <div class="skill-card" data-cat="tools"><div class="name">Git</div><div class="cat">Tools</div></div>
+      <div class="skill-card" data-cat="tools"><div class="name">GitHub</div><div class="cat">Tools</div></div>
+      <div class="skill-card" data-cat="tools"><div class="name">VS Code</div><div class="cat">Tools</div></div>
+      <div class="skill-card" data-cat="tools"><div class="name">Docker</div><div class="cat">Tools</div></div>
+      <div class="skill-card" data-cat="tools"><div class="name">Postman</div><div class="cat">Tools</div></div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section wrap" id="projects" data-shape="3">
+    <div class="eyebrow"><span class="num">04</span><span class="rule"></span>PROJECTS</div>
+    <div class="section-head reveal">
+      <h2>Selected work</h2>
+      <p>A mix of full stack applications and an IoT + ML system — built to solve a real, specific problem rather than to fill a portfolio slot.</p>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <article class="project-card reveal">
+        <div class="project-preview"><div class="pgrid"></div><span class="glyph">RE</span></div>
+        <div class="project-body">
+          <div class="project-tag">HEALTHCARE · FULL STACK</div>
+          <h3>RemedyEase</h3>
+          <p class="project-desc">A full stack, healthcare-oriented web application with a modern interface for managing care-related workflows end to end.</p>
+          <p class="project-problem">Problem solved: gives users a single, structured place to manage healthcare-related tasks instead of scattered, ad-hoc tools.</p>
+          <ul class="project-features">
+            <li>Authentication and protected API routes</li>
+            <li>Modern, responsive React interface</li>
+            <li>Structured data flow between client and API</li>
+          </ul>
+          <div class="tech-row">
+            <span class="tech-pill">React</span><span class="tech-pill">TypeScript</span><span class="tech-pill">REST API</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="#" target="_blank" rel="noopener">Live Demo ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project-card reveal">
+        <div class="project-preview"><div class="pgrid"></div><span class="glyph">TDS</span></div>
+        <div class="project-body">
+          <div class="project-tag">IoT · AI/ML</div>
+          <h3>Real-Time Wall-Mounted TDS Meter</h3>
+          <p class="project-desc">An IoT and machine learning system for continuous water-quality monitoring, built around a wall-mounted sensor unit.</p>
+          <p class="project-problem">Problem solved: replaces manual, periodic water testing with continuous, real-time visibility into water quality.</p>
+          <ul class="project-features">
+            <li>Live TDS, pH, and temperature monitoring</li>
+            <li>Real-time dashboard for sensor readings</li>
+            <li>Predictive analytics on collected sensor data</li>
+          </ul>
+          <div class="tech-row">
+            <span class="tech-pill">IoT Sensors</span><span class="tech-pill">Python</span><span class="tech-pill">Predictive Analytics</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="#" target="_blank" rel="noopener">Live Demo ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project-card reveal">
+        <div class="project-preview"><div class="pgrid"></div><span class="glyph">PM</span></div>
+        <div class="project-body">
+          <div class="project-tag">FULL STACK</div>
+          <h3>Post Management Application</h3>
+          <p class="project-desc">A full stack content application for creating, editing, and managing posts, with authenticated API access throughout.</p>
+          <p class="project-problem">Problem solved: gives users secure, structured CRUD control over their own content through a clean interface.</p>
+          <ul class="project-features">
+            <li>JWT-based authentication</li>
+            <li>Full CRUD operations on posts</li>
+            <li>API integration between React client and backend</li>
+          </ul>
+          <div class="tech-row">
+            <span class="tech-pill">React</span><span class="tech-pill">TypeScript</span><span class="tech-pill">JWT</span><span class="tech-pill">REST API</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="#" target="_blank" rel="noopener">Live Demo ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Placeholder project -->
+      <article class="project-card placeholder reveal">
+        <p>Add your next project here — name, problem solved, stack, and links.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section wrap" id="experience" data-shape="4">
+    <div class="eyebrow"><span class="num">05</span><span class="rule"></span>EXPERIENCE</div>
+    <div class="section-head reveal">
+      <h2>Where I've put in the hours</h2>
+      <p>No formal employment history yet — this is the hands-on work: academic projects, technical builds, and activities outside the classroom.</p>
+    </div>
+
+    <div class="timeline reveal">
+      <div class="tl-item">
+        <div class="tl-tag">ACADEMIC PROJECTS</div>
+        <h3>[Add project or coursework title]</h3>
+        <p>[Describe the project, your role, and the outcome.]</p>
+        <div class="meta">[Add date range]</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-tag">TECHNICAL PROJECTS</div>
+        <h3>[Add technical project title]</h3>
+        <p>[Describe what you built and the technologies involved.]</p>
+        <div class="meta">[Add date range]</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-tag">HACKATHONS</div>
+        <h3>[Add hackathon name]</h3>
+        <p>[Describe the challenge, your build, and the result.]</p>
+        <div class="meta">[Add date / placement]</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-tag">OPEN SOURCE</div>
+        <h3>[Add open source contribution]</h3>
+        <p>[Describe the repository and your contribution.]</p>
+        <div class="meta">[Add date range]</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-tag">TECHNICAL ACTIVITIES</div>
+        <h3>[Add club, workshop, or technical activity]</h3>
+        <p>[Describe your involvement.]</p>
+        <div class="meta">[Add date range]</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section wrap" id="education" data-shape="5">
+    <div class="eyebrow"><span class="num">06</span><span class="rule"></span>EDUCATION</div>
+    <div class="section-head reveal">
+      <h2>Academic background</h2>
+    </div>
+
+    <div class="edu-card reveal">
+      <h3>Bachelor of Engineering — Computer Science Engineering (AI/ML)</h3>
+      <div class="school">Chandigarh University</div>
+
+      <div class="edu-fields">
+        <div><div class="f-label">Expected Graduation</div><div class="f-val">[Add expected graduation year]</div></div>
+        <div><div class="f-label">CGPA</div><div class="f-val">[Add CGPA]</div></div>
+        <div><div class="f-label">Academic Achievements</div><div class="f-val">[Add academic achievement]</div></div>
+        <div><div class="f-label">Status</div><div class="f-val">In progress</div></div>
+      </div>
+
+      <div class="f-label" style="margin-top:26px;">Relevant Coursework</div>
+      <div class="course-list">
+        <span class="chip">Data Structures &amp; Algorithms</span>
+        <span class="chip">Machine Learning</span>
+        <span class="chip">Database Management Systems</span>
+        <span class="chip">Operating Systems</span>
+        <span class="chip">Computer Networks</span>
+        <span class="chip">Software Engineering</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ACHIEVEMENTS ============ -->
+  <section class="section wrap" id="achievements" data-shape="6">
+    <div class="eyebrow"><span class="num">07</span><span class="rule"></span>ACHIEVEMENTS</div>
+    <div class="section-head reveal">
+      <h2>Certifications &amp; recognition</h2>
+      <p>Placeholders below — fill in with your actual certifications, hackathon results, and competitions as you complete them.</p>
+    </div>
+
+    <div class="ach-grid reveal">
+      <div class="ach-card"><div class="tag">Certification</div><p>[Add certification name and issuer]</p></div>
+      <div class="ach-card"><div class="tag">Hackathon</div><p>[Add hackathon name and result]</p></div>
+      <div class="ach-card"><div class="tag">Coding Achievement</div><p>[Add competitive programming milestone]</p></div>
+      <div class="ach-card"><div class="tag">Technical Competition</div><p>[Add competition name and outcome]</p></div>
+      <div class="ach-card"><div class="tag">Research</div><p>[Add paper, project, or research activity]</p></div>
+      <div class="ach-card"><div class="tag">Workshop</div><p>[Add workshop or club activity]</p></div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section wrap" id="contact" data-shape="7">
+    <div class="eyebrow"><span class="num">08</span><span class="rule"></span>CONTACT</div>
+    <div class="split">
+      <div class="reveal">
+        <div class="contact-head">
+          <h2>Have an idea?<br>Let's build something amazing.</h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:aditya.verma@example.com"><span class="label">Email</span><span class="val">aditya.verma@example.com</span>↗</a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener"><span class="label">LinkedIn</span><span class="val">/in/adityaverma</span>↗</a>
+          <a href="https://github.com/" target="_blank" rel="noopener"><span class="label">GitHub</span><span class="val">/adityaverma</span>↗</a>
+        </div>
+      </div>
+
+      <form class="reveal" id="contact-form" novalidate>
+        <div class="form-grid">
+          <div class="form-row">
+            <div class="field">
+              <label for="f-name">Name</label>
+              <input id="f-name" name="name" type="text" autocomplete="name">
+              <div class="err" data-err-for="name"></div>
+            </div>
+            <div class="field">
+              <label for="f-email">Email</label>
+              <input id="f-email" name="email" type="email" autocomplete="email">
+              <div class="err" data-err-for="email"></div>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-subject">Subject</label>
+            <input id="f-subject" name="subject" type="text">
+            <div class="err" data-err-for="subject"></div>
+          </div>
+          <div class="field">
+            <label for="f-message">Message</label>
+            <textarea id="f-message" name="message" rows="4"></textarea>
+            <div class="err" data-err-for="message"></div>
+          </div>
+          <div class="btn-row">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="wrap">
+    <span class="fmark">© <span id="year"></span> Aditya Verma. Built from scratch, one commit at a time.</span>
+    <span class="fmark">Back to <a href="#home" style="text-decoration:underline;">Home</a></span>
+  </footer>
+</main>
+
+<button class="back-top" aria-label="Back to top">↑</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
